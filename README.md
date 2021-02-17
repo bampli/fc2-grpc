@@ -34,9 +34,3 @@ https://golang.org/doc/install?download=go1.16.linux-amd64.tar.gz
 
     evans -r repl --host localhost --port 50051
 
-### Change origin
-
-    git remote rm origin
-    git remote add origin git@github.com:bampli/fc2-grpc.git
-    git config master.remote origin
-    git config master.merge refs/heads/master
